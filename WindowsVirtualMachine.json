@@ -92,7 +92,7 @@
     },
     "secretUrlWithVersion1": {
       "type": "string",
-      "defaultValue": "https://martingkeyvault.vault.azure.net/secrets/MartinG/9d74d277dca44210aeb4fdfcb2f2de25g",
+      "defaultValue": "https://martingkeyvault.vault.azure.net/secrets/MartinG/9d74d277dca44210aeb4fdfcb2f2de25",
       "metadata": {
         "description": "Url of the certificate in Key Vault"
       }
