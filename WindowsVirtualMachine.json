@@ -107,8 +107,8 @@
     }
   },
   "variables": {
-    "virtualNetworkName": "tarun-vnet",
-    "existingVirtualNetworkResourceGroup": "tarun-day3-rg",
+    "virtualNetworkName": "MartinGvnet",
+    "existingVirtualNetworkResourceGroup": "MartinG",
     "SubscriptionID": "[subscription().subscriptionId]",
     "vnetId": "[resourceId(variables('existingVirtualNetworkResourceGroup'), 'Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
     "AutomationAccountId": "[resourceId(parameters('automationAccountRG'), 'Microsoft.Automation/automationAccounts', parameters('automationAccountName'))]",
