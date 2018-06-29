@@ -32,14 +32,14 @@
     },
     "automationAccountName": {
       "type": "string",
-      "defaultValue": "Marc-Automation",
+      "defaultValue": "MartinG",
       "metadata": {
         "description": "Name of your Azure automation account"
       }
     },
     "automationAccountRG": {
       "type": "string",
-      "defaultValue": "Marc-Automation",
+      "defaultValue": "MartinG",
       "metadata": {
         "description": "Resource Group of your Azure automation account"
       }
@@ -78,21 +78,21 @@
     },
     "vaultName": {
       "type": "string",
-      "defaultValue": "MSMarcVault",
+      "defaultValue": "MartinGKeyvault",
       "metadata": {
         "description": "Name of Key Vault that has a secret"
       }
     },
     "vaultResourceGroup": {
       "type": "string",
-      "defaultValue": "MSMarcVault",
+      "defaultValue": "MartinG",
       "metadata": {
         "description": "Resource Group of Key Vault that has a secret"
       }
     },
     "secretUrlWithVersion1": {
       "type": "string",
-      "defaultValue": "https://msmarcvault.vault.azure.net/secrets/MyEncryptionCert/697285956d144d408f87803dbaec9f45",
+      "defaultValue": "https://martingkeyvault.vault.azure.net/secrets/MartinG/9d74d277dca44210aeb4fdfcb2f2de25",
       "metadata": {
         "description": "Url of the certificate in Key Vault"
       }
